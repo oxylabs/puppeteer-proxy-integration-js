@@ -1,14 +1,14 @@
-# Oxylabs' Proxy Integration with Playwright 
+# Oxylabs' Proxy Integration with Puppeteer
 
-[<img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=brightgreen" />](https://github.com/topics/python) [<img src="https://img.shields.io/static/v1?label=&message=Web%20Scraping&color=important" />](https://github.com/topics/web-scraping) [<img src="https://img.shields.io/static/v1?label=&message=Rotating%20Proxies&color=blueviolet" />](https://github.com/topics/rotating-proxies)
+[<img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=brightgreen" />](https://github.com/topics/javascript) [<img src="https://img.shields.io/static/v1?label=&message=Web%20Scraping&color=important" />](https://github.com/topics/web-scraping) [<img src="https://img.shields.io/static/v1?label=&message=Rotating%20Proxies&color=blueviolet" />](https://github.com/topics/rotating-proxies)
 - [Requirements](#requirements)
 - [Integrating Datacenter Proxies](#integrating-datacenter-proxies)
 - [Integrating Residential Proxies](#integrating-residential-proxies)
 ## Requirements
 
-### Playwright
+### Puppeteer
 ```bash
-npm install playwright
+npm install puppeteer
 ```
 
 ## Integrating Datacenter Proxies 
