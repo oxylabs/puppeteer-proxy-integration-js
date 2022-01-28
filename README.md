@@ -15,7 +15,7 @@ npm install puppeteer
 
 ### Getting a List of Proxies
 
-Open the following URL in the browser, enter your credentials,  and you will see a list of proxies in plain text:
+Open the following URL in the browser and enter your credentials. You will see a list of proxies in plain text:
 
 ```
 https://proxy.oxylabs.io/all
@@ -23,7 +23,7 @@ https://proxy.oxylabs.io/all
 
 ### Using Proxies
 
-If you wish to select any one of the proxies, save the proxy IP, along with the port in a variable.
+If you wish to select any of the provided proxies, save the proxy IP, along with the port in a variable.
 
 To use all these proxies, first, save these proxies as an array in your code:
 
@@ -36,13 +36,13 @@ let proxies = [
   ]
 ```
 
-To select one of these randomly, use the following line of code:
+To select one of these proxies randomly, use the following line of code:
 
 ```JavaScript
 var proxy = proxies[Math.floor(Math.random() * proxies.length)];
 ```
 
-The proxy server to be used needs to be supplied as `--proxy-server` argument.
+The proxy server you will use needs to be supplied as `--proxy-server` argument.
 
 Create a variable that can contain all the arguments in an array.
 
@@ -64,7 +64,7 @@ After creating the `launchOptions` variable, create a `puppeteer` instance and l
 const browser = await puppeteer.launch(launchOptions);
 ```
 
-Finally, to authenticate using your credential, call the `page.authenticate` function, after creating a `page`.
+Finally, to authenticate using your credentials, call the `page.authenticate` function after creating a `page`.
 
 ```javascript
 // Create a new page
@@ -85,7 +85,7 @@ For the complete code sample, see [this file](datacenter_random.js).
 ### Random Proxy Using the Proxy API
 To get a random proxy, use the proxy server `pr.oxylabs.io:7777`.
 
-The proxy server to be used needs to be supplied as `--proxy-server` argument.
+As mentioned above, the proxy server you will use needs to be supplied as `--proxy-server` argument.
 
 Create a variable that can contain all the arguments in an array.
 
@@ -104,7 +104,7 @@ After creating the `launchOptions` variable, create a `puppeteer` instance and l
 const browser = await puppeteer.launch(launchOptions);
 ```
 
-Finally, to authenticate using your credential, call the `page.authenticate` function, after creating a `page`.
+Finally, to authenticate using your credentials, call the `page.authenticate` function after creating a `page`.
 
 ```javascript
 // Create a new page
@@ -121,9 +121,9 @@ For the complete code sample, see [this file](residential_random.js).
 
 ### Country Specific Proxies
 
-If you wish to use country-specific proxies, all you need to do is to change the `proxy` server.
+If you wish to use country-specific proxies, all you need to do is change the `proxy` server.
 
-For example, if you wish to use the proxy for the United States, you can use the following code:
+For example, if you want to use a proxy for the United States, you can use the following code:
 
 ```javascript
 const launchOptions = {
@@ -132,8 +132,8 @@ const launchOptions = {
 
 ```
 
-In this example, `us-pr.oxylabs.io:10000` is the country specific entry point for United States.
+In this example, `us-pr.oxylabs.io:10000` is the country specific entry point for the United States.
 
-Another example is `gb-pr.oxylabs.io:20000`, which is the country specific entry point for United Kingdom.
+Another example is `gb-pr.oxylabs.io:20000`, which is the country specific entry point for the United Kingdom.
 
 For a complete list of all entry points, see [Country Specific Entry Nodes](https://developers.oxylabs.io/residential-proxies/#country-specific-entry-nodes)
