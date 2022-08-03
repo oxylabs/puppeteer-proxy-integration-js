@@ -136,4 +136,4 @@ In this example, `us-pr.oxylabs.io:10000` is the country specific entry point fo
 
 Another example is `gb-pr.oxylabs.io:20000`, which is the country specific entry point for the United Kingdom.
 
-For a complete list of all entry points, see [Country Specific Entry Nodes](https://developers.oxylabs.io/proxies/residential-proxies/country-specific-entry-nodes)
+For a complete list of all entry points, see [Country Specific Entry Nodes](https://oxy.yt/KrKF)
