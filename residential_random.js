@@ -32,8 +32,8 @@ const puppeteer = require('puppeteer');
             password: 'PASSWORD'
         });
 
-        // This page simply returns the IP address
-        await page.goto('https://ip.oxylabs.io/');
+        // This page returns the IP address and other location details
+        await page.goto('https://ip.oxylabs.io/location');
 
         // Print the response from the page
         // This will print the IP address of the proxy 
